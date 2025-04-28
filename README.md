@@ -126,6 +126,17 @@ Finalmente descargamos las imagenes del servidor SQL, recuerden ejecutar este co
 
 `docker compose -f ./sql/docker-compose.yml pull`
 
+## Windows
+
+cambiar policies
+
+`Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass`
+
+activar venv
+
+`.\venv\Scripts\Activate.ps1`
+
+
 ## Ejecución del entorno de desarrollo
 
 para ejecutar el proyecto utilizaremos el script dev.py que se encargara de levantar el servidor SQL, correr las pruebas unitarias y ejecutar la aplicacion en modo desarrollo.
