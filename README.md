@@ -99,6 +99,7 @@ Pueden ver la version instalada de docker con el siguiente comando
 - seaborn
 - scikit-learn
 - sqlalchemy
+- ruff
 
 ## Configuración del entorno de desarrollo
 

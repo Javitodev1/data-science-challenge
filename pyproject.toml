@@ -1,0 +1,4 @@
+[tool.ruff]
+line-length = 88
+select = ["ALL"]
+ignore = ["D100", "D107"]
