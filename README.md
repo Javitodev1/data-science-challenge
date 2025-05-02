@@ -43,11 +43,37 @@
 
 - Prod: Rama de Producción. Paralela a la rama Master nunca hace merge a esta. Cuando nuevo código es integrado en la rama Master, crea una pull request para desplegar el nuevo código en el servidor. Crea el entorno de producción. (requirements-prod.txt)
 
-- Dev: Rama de Desarrollo o trabajo local. Integra codigo nuevo a la rama Master. Crea el entorno de desarrollo.(requirements.txt)
+- Develop: Rama de Desarrollo o trabajo local. Integra codigo nuevo a la rama Master. Crea el entorno de desarrollo.(requirements.txt)
 
 - Master: Rama que se visualizará en Github por defecto.
 
 - Features: ramas individuales teniendo como origen la rama Dev para la integración de código al proyecto.
+
+  - jupyter: modificación de carpetas doc, data y model:
+
+    - doc: Archivos Jupyter para la documentación del procesamiento del dataset
+
+    - data: Almacenamiento de archivos csv generados en el preprocesamiento
+
+    - model: Modelos de prediccion entrenados en el preprocesamiento
+
+  - database: modificación de carpetas db y config:
+    
+    - config: configuración de la base de datos, declaración de tablas y relaciones
+
+    - db: conectores a la base de datos y populación de datos iniciales
+
+  - devops: modificaciones de archivos del proyecto y script de arranque
+
+  - application: modificaciones de archivos analysis, core, app, controller:
+    
+    - analysis: Algoritmo de procesamiento de datos para cada modelo (dumificación, descomposicion, compresión, normalizacion)
+
+    - core: Estructura de datos e interfaces de la aplicación
+
+    - app: modelos de la aplicación
+
+    - controller: controladores de eventos de la aplicación
 
 ## Requisitos
 
