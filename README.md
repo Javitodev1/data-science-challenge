@@ -63,6 +63,7 @@
 - seaborn
 - scikit-learn
 - sqlalchemy
+- ruff
 
 ## Configuración del entorno de desarrollo
 
