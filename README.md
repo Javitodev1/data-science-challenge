@@ -100,6 +100,8 @@ Pueden ver la version instalada de docker con el siguiente comando
 - scikit-learn
 - sqlalchemy
 - ruff
+- tensorflow
+- statsmodels
 
 ## Configuración del entorno de desarrollo
 
