@@ -139,6 +139,10 @@ activar venv
 
 `.\venv\Scripts\Activate.ps1`
 
+Una vez activado el entorno virtual, instalaremos las dependencias
+
+`pip install -r requirements.txt`
+
 
 ## Ejecución del entorno de desarrollo
 
@@ -149,10 +153,10 @@ para ejecutar el proyecto utilizaremos el script dev.py que se encargara de leva
 
 ## Limpiar dependencias en el entorno virtual
 
-### Windows
-
-`pip freeze | xargs pip uninstall -y`
-
 ### Linux
 
 `pip3 freeze | xargs pip3 uninstall -y`
+
+### Windows
+
+`pip freeze | xargs pip uninstall -y`
