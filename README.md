@@ -145,3 +145,14 @@ activar venv
 para ejecutar el proyecto utilizaremos el script dev.py que se encargara de levantar el servidor SQL, correr las pruebas unitarias y ejecutar la aplicacion en modo desarrollo.
 
 `python3 dev.py`
+
+
+## Limpiar dependencias en el entorno virtual
+
+### Windows
+
+`pip freeze | xargs pip uninstall -y`
+
+### Linux
+
+`pip3 freeze | xargs pip3 uninstall -y`
